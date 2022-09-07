@@ -67,7 +67,7 @@ const [moviesList,setMoviesList]=useState('Bollywood')
         {recommend[moviesList].map((movieList,index)=>(<>
            <div key={index}>
            <div className="card mx-4 " style={{width: "18rem"}}>
-  <image className="card-img-top" src={movieList.img} height="170px" width="fit-content" alt="Card image cap"/>
+  <img src={movieList.img} className="card-img-top"  height="170px" width="fit-content" alt="Card image cap" />
   <div className="card-body">
     <p className="card-text text-center">{movieList.name}</p>
     
