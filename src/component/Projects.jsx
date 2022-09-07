@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+
 const Projects = () => {
   return (<>
   <header className="header">
@@ -11,6 +13,15 @@ const Projects = () => {
         <h5> <span><a href="https://birthday-plndrom.netlify.app/" role="button"
               className="">Live Project</a></span>
                <span><a  href="https://github.com/Imran-Siddiquii/birthday-palindrome.git" className=" viewSource">View Source</a></span>
+            </h5>
+      </section>
+      <section className="project container">
+        <h3>Ubbi-Dubbi Translate </h3>
+        <small>Date : 08/09/2022</small>
+        <p>Built a app to check birthday is palindorme or not if not then show the next palindrome date using Html and Css and Javascript.</p>
+        <h5> <span><Link to="/projects/ubbi-dubbi-translate" role="button"
+              className="">Live Project</Link></span>
+               {/* <span><a  href="https://github.com/Imran-Siddiquii/birthday-palindrome.git" className=" viewSource">View Source</a></span> */}
             </h5>
       </section>
 </>
