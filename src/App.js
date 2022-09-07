@@ -2,8 +2,8 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
 import './App.css';
 import Footer from './component/Footer';
-import {Projects} from './component/Projects';
-import {Blogs} from './component/Blogs';
+import Projects from './component/Projects';
+import Blogs from './component/Blogs';
 import Error from './component/Error';
 import Home from './component/Home';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';

@@ -1,16 +1,8 @@
 import React from 'react'
-import Navbar  from "./Navbar";
 
 const Blogs = () => {
   return (<>
-    <BlogPage/>
-    </>
-  )
-}
-const BlogPage=()=> {
-  return(
-    <>
-      <header className="header">
+    <header className="header">
     <h3><b>  Blogs </b></h3>
       </header>
 
@@ -35,4 +27,4 @@ const BlogPage=()=> {
   )
 }
 
-export {Blogs,BlogPage};
+export default Blogs;
